@@ -1,0 +1,13 @@
+cpf,nome,ccb,contract_status,disbursement_status,disbursement_error,last_disbursement_attempt,bank_validated,onboarding_step,onboarding_error,credit_status,installment_ref,installment_status,installment_amount_brl,payment_provider,payment_id,payment_status,payment_amount_brl,payment_received_at,last_doc_generated,last_doc_type,last_doc_status,term_email_status,renegotiation_eligible,renegotiation_block_reason,days_past_due,accelerated_installments,lead_status,lgpd_delete_requested,hours_since_signature
+90111111101,Cliente Fictício A,80001001,assinado,aguardando_desembolso,TIMEOUT_BANCARIZADOR,2026-06-11T06:45:00Z,sim,,,aprovado_alpha9,,,,,,,,,,,,,,,,,,,18
+90122222202,Cliente Fictício B,,,,,,sim,bank_account,KYC_BANK_MISMATCH,aprovado_alpha9,,,,,,,,,,,,,,,,,lead_ativo,,
+90133333303,Cliente Fictício C,80003001,ativo,,,,sim,,,quitado_parcial,parcela_8,aberta,403.06,banco,banco_pay_fict_001,pago,403.06,2026-06-10T17:32:00Z,,,,,,,,,,,
+90144444404,Cliente Fictício D,80004001,ativo,,,,sim,,,,parcela_6,aberta,403.06,banco,,,,,doc_fict_0401,quitacao,ativa,,,,,,,,
+90155555505,Cliente Fictício E,80005001,ativo,,,,sim,,,,,,,,,,,,,,,,sim,FLAG_ACCELERATED_BLOCK,112,,,,
+90166666606,Cliente Fictício F,,,,,,nao,completed,,reprovado_alpha9,,,,,,,,,,,,,,,,,lead_ativo,sim,
+90177777707,Cliente Fictício G,80007001,quitado,,,,sim,,,,,,,,,,,,,,,falha_envio,,,,,,,
+90188888808,Cliente Fictício H,80008001,cancelado,indeferido,BANCARIZADOR_OK,2026-06-11T08:10:00Z,sim,,,,,,,,,,,,,,,,,,,,,,
+90188888808,Cliente Fictício H,80008002,assinado,aguardando_desembolso,,2026-06-10T22:00:00Z,sim,,,,,,,,,,,,,,,,,,,,,,14
+90199999909,Cliente Fictício I,80009001,assinatura_pendente,aguardando_desembolso,SYNC_STATUS_MISMATCH,2026-06-11T09:00:00Z,sim,,,,,,,,,,,,,,,,,,,,,,
+90110101010,Cliente Fictício J,80010001,ativo,,,,sim,,,,parcela_10;parcela_11,aberta,380.00,banco,doc_acc_fict_10,ativa,,,doc_acc_fict_10;doc_acc_fict_11,parcela_acelerada,ativa,,,,,10;11,,,
+90112121212,Cliente Fictício L,80012001,assinado,aguardando_desembolso,,2026-06-11T11:30:00Z,sim,,,,,,,,,,,,,,,,,,,,,,3
